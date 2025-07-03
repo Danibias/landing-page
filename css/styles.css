@@ -19,6 +19,13 @@
     --padding: 0 8rem;
 }
 
+body 
+{
+    background-color: var(--hero-font-color);
+}
+
+
+
 .hero-main 
 {
     font-size: 48px;
@@ -92,11 +99,9 @@ ul
     background-color: var(--dark-color);
 }
 
-.hero-wrapper {
-
+.hero-wrapper 
+{
     display: flex;
-
-
 }
 
 .text-container,
@@ -110,7 +115,6 @@ ul
     margin: 2rem 0;
     gap: 1rem;
     padding: var(--padding);
-
 }
 
 .text-container 
@@ -125,7 +129,7 @@ ul
 
 .block-img {
     width: 100%;
-    border-radius: .5rem;
+    border-radius: .75rem;
 }
 
 .caption 
@@ -151,6 +155,55 @@ a {
     cursor: pointer;
 }
 
+/* features */
+
+.features {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+    gap: 1.75rem;
+}
+
+
+
+.features-wrapper 
+{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    gap: 1rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.card 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.card-img 
+{
+    width: 100%;
+    border: 3px solid var(--cta-color);
+    border-radius: .75rem;
+}
+
+.card-body 
+{
+    font-family: var(--font);
+    color: var(--dark-color);
+    font-size: 1rem;
+}
 
 
 
