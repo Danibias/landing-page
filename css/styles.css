@@ -205,6 +205,36 @@ a {
     font-size: 1rem;
 }
 
+/* quote */
+
+.quote-wrapper{
+    width: 100%;
+    height: 50vh;
+    margin: 4rem 0;
+    gap: 1.75rem;
+    background-color: var(--quote-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+blockquote 
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+}
+
+cite {
+    align-self: flex-end;
+    font-size: 1rem;
+    font-family: var(--font);
+}
+
+
+
 
 
 
