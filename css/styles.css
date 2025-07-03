@@ -269,6 +269,13 @@ cite
     padding: .5rem 2rem;
 }
 
+footer {
+    background-color: var(--dark-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
 
 
 
