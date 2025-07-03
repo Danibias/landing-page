@@ -52,7 +52,7 @@
     color: var(--dark-color);
 }
 
-
+/* header */
 nav 
 {
     background-color: var(--dark-color);
@@ -70,7 +70,6 @@ ul
     list-style: none;
     align-items: baseline;
     padding: .5rem;
-    
 }
 
 .logo-header 
@@ -85,5 +84,83 @@ ul
 {
     text-decoration: none;
 }
+
+/* hero */
+
+.hero 
+{
+    background-color: var(--dark-color);
+}
+
+.hero-wrapper {
+
+    display: flex;
+
+
+}
+
+.text-container,
+.img-container
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex-basis: 50%;
+    flex-grow: 1;
+    margin: 2rem 0;
+    gap: 1rem;
+    padding: var(--padding);
+
+}
+
+.text-container 
+{
+    padding-right:2rem;
+}
+
+.img-container {
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.block-img {
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.caption 
+{
+    position: relative;
+    bottom: 45px;
+}
+
+.caption, 
+a {
+    color: var(--quote-color);
+    font-size: .75rem;
+    color: var(--quote-color);
+    font-family: var(--font);
+}
+
+.btn 
+{
+    width: 10rem;
+    background-color: var(--cta-color);
+    border-radius: .5rem;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
