@@ -1,2 +1,3 @@
 # landing-page
-Landing page project to demonstrate the scope of the past lessons.
+
+This is a project to demonstrate the scope of the past lessons.
