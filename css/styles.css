@@ -92,7 +92,7 @@ ul
     text-decoration: none;
 }
 
-/* hero */
+/* hero section */
 
 .hero 
 {
@@ -153,9 +153,10 @@ a {
     border-radius: .5rem;
     padding: .5rem;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
-/* features */
+/* features section */
 
 .features {
     width: 100%;
@@ -205,12 +206,11 @@ a {
     font-size: 1rem;
 }
 
-/* quote */
+/* quote section */
 
 .quote-wrapper{
     width: 100%;
     height: 50vh;
-    margin: 4rem 0;
     gap: 1.75rem;
     background-color: var(--quote-color);
     display: flex;
@@ -227,14 +227,47 @@ blockquote
     gap: 2rem; 
 }
 
-cite {
+cite 
+{
     align-self: flex-end;
     font-size: 1rem;
     font-family: var(--font);
 }
 
+/*  CTA section */
 
+.cta-wrapper 
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: var(--padding);
+    margin: 5rem 0;
+}
 
+.cta {
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cta-color);
+    gap: 2rem;
+    border-radius: .5rem;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    padding: .5rem 2rem;
+}
+
+.btn-container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 2rem;
+}
 
 
 
